@@ -10,9 +10,7 @@ class Quiz extends Component {
   }
   render() {
     return (
-      <QuizQuestion 
-        quiz_question={quizData.quiz_questions[this.state.quiz_position - 1]}
-      />
+      <QuizQuestion quiz_question={quizData.quiz_questions[this.state.quiz_position - 1]}/>
     );
   }
 }
